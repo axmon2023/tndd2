@@ -1,0 +1,269 @@
+body{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    padding-bottom: 100px;
+}
+.container{
+    background: rgb(3, 68, 3);
+}
+.header1{
+  
+   margin: 20px;
+   padding: 20px;
+   width: 90%;
+   height: 3%;
+   column-count: 3;
+  justify-content: center;
+   display: flexbox;
+   align-items: center;
+   
+}
+.tit{
+    color: rgb(180, 231, 61);
+    text-align: center;
+    font-size: xxx-large;
+    margin: 30px
+}
+
+.tit:hover{
+    transform: scale( -1, 1);
+    transition: 5s;
+    color: yellow;
+}
+
+.h2{
+    color: rgb(195, 233, 60);
+    font-family: sans-serif;
+    font-size: 50px;
+    padding: 20px;
+    font-weight:bold;
+}
+.h2:hover{
+    transform: scale(-1.25);
+    transition: 5s;
+}
+
+
+.img1{
+    width: 200px;
+    height: 200px;
+}
+h3{
+    color: white;
+    font-size:xx-large;
+    text-align: center;
+    
+}
+.img1:hover{
+    transform: scale(-1.25);
+    transition: 5s;
+}
+.navegacion{
+    background: rgb(213, 194, 170);
+    border-radius: 30px;
+}
+.list{
+    display:inline-flex;
+    color: black;
+    margin: 0;
+    list-style: none;
+    padding: 10px;
+    float: right;
+    
+}
+
+a{
+    text-decoration: none;
+   
+
+}
+.div2{
+
+   padding: 0%;
+   margin-bottom: 10px;
+   display: flexbox; 
+   position: relative;
+   color: white;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: yellow;
+    text-align: justify;
+}
+
+section{
+    width: 50%;
+    margin: 20px;
+    float: left;
+    text-align: center;
+}
+productos1{
+    margin-top: 300px;
+}
+.productos{
+  position: absolute;
+  margin-top: 100px;
+}
+.divh3{
+    text-align: right;
+}
+aside{
+    margin-top: 50px;
+}
+.dgal{
+    margin-top: 50px;
+}
+.mapa{
+   image-resolution: 300px; 
+   max-width: 300px;
+
+
+
+}
+.dir{
+    color: white;
+    text-align: center;
+}
+.dir2{
+    width:30px;
+    height: 30px;
+    
+}
+.sec2{
+    display: grid;
+    
+}
+.servicios{
+    margin-top: 50px;
+}
+divh3{
+    height: 1200px;
+}
+.div3{
+    width: 40%;
+    margin-top: 20px;
+    float: right;
+    position: relative;
+    display: grid;
+    column-count: 3;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+.imga{
+    width: 150px;
+    height: 150px;
+    
+}
+.imga:hover{
+    transform: scale( -1);
+    transition: 3s;
+}
+.div5{
+    width: 90%;
+    height: 5px;
+    position: absolute;
+    bottom: -15px;
+    font-size: large;
+    text-align: center;
+    color: yellow;
+}
+.dimg{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.dimg2{
+    margin-top: 20px;
+   margin-bottom: 20px;
+   text-align: center;
+
+}
+.dimg6{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+form {
+    /* Centrar el formulario en la página */
+    margin: 0 auto;
+    width: 400px;
+    /* Esquema del formulario */
+    padding: 1em;
+  
+    border-radius: 1em;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Tamaño y alineación uniforme */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  
+  input,
+  textarea {
+    /* Para asegurarse de que todos los campos de texto tienen la misma configuración de letra
+       Por defecto, las áreas de texto tienen un tipo de letra monoespaciada */
+    font: 1em sans-serif;
+  
+    /* Tamaño uniforme del campo de texto */
+    width: 300px;
+    box-sizing: border-box;
+  
+    /* Hacer coincidir los bordes del campo del formulario */
+    border: 1px solid #999;
+  }
+  
+  input:focus,
+  textarea:focus {
+    /* Destacado adicional para elementos que tienen el cursor */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* Alinear los campos de texto multilínea con sus etiquetas */
+    vertical-align: top;
+  
+    /* Proporcionar espacio para escribir texto */
+    height: 5em;
+  }
+  
+  .button {
+    /* Alinear los botones con los campos de texto */
+    padding-left: 90px; /* mismo tamaño que los elementos de la etiqueta */
+  }
+  
+  button {
+    /* Este margen adicional representa aproximadamente el mismo espacio que el espacio
+       entre las etiquetas y sus campos de texto */
+    margin-left: .5em;
+  }
+  @media (    min-width: 600px){
+
+    body{
+        background: rgb(3, 68, 3);
+    }
+    img{
+        width: 30%;
+        border-radius: 50%;
+    }
+    h1{
+        font-size: 20%;
+    }
+    .h2{
+        25%;
+    }
+  }
